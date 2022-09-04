@@ -1,0 +1,38 @@
+.child1
+{
+    border: 1px solid red;
+    width: 25vw !important;
+    height: 8vh;
+    border-radius: 30px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+}
+
+.child1 p{
+    margin: 0 !important;
+}
+
+.parent
+{
+    position: absolute;
+    top: 20% !important;
+    left: 3%;
+    border: 1px solid green;
+    height: auto;
+    width: 50vw;
+}
+
+.child2 span
+{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: blue;
+}
+
+.child2
+{
+    font-size: 13vh;
+    font-weight: bolder;
+
+}

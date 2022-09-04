@@ -1,5 +1,6 @@
 import './App.css';
 import MyNavBar from './components/MyNavBar.js';
+import Text from './components/Text.js';
 
 //importing bgImage component
 // import BgImage from './components/BgImage.js';
@@ -20,6 +21,8 @@ function App() {
   return (
     <div className="App">
       <MyNavBar />
+      
+      <Text />
     </div>
   );
 }

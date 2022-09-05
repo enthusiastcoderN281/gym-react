@@ -1,14 +1,14 @@
-import bgimage from '../dragon_fruit.jpg';
-import 'D:\\Sahil\\coding\\gymReact\\src\\bgImage.css';
+// import bgimage from '../dragon_fruit.jpg';
+// import 'D:\\Sahil\\coding\\gymReact\\src\\bgImage.css';
 
 
-function BgImage()
-{
-    return(
-        <img class = "image" src={bgimage}></img>
-    );
-}
+// function BgImage()
+// {
+//     return(
+//         <img class = "image" src={bgimage}></img>
+//     );
+// }
 
 
-export default BgImage;
+// export default BgImage;
 

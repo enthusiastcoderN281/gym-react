@@ -1,0 +1,14 @@
+.miniCarousel
+{
+    position: absolute !important;
+    width: 50vw !important;
+    top:0;
+    left:0;
+    /* height:30vh; */
+}
+
+.MainCarousel
+{
+    position: absolute !important;
+}
+

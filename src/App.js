@@ -1,7 +1,7 @@
 import './App.css';
 import MyNavBar from './components/MyNavBar.js';
 // import Text from './components/Text.js';
-import MyCarousel from './components/MyCarousel.js';
+import MainCarousel from './components/MainCarousel.js';
 //importing bgImage component
 // import BgImage from './components/BgImage.js';
 
@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <MyNavBar />
-      <MyCarousel/>
+      <MainCarousel/>
     </div>
   );
 }

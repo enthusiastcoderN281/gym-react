@@ -2,5 +2,12 @@
 {
     width:198px;
     margin: 0 !important;
+
 }
 
+.nav
+{
+    top:0;
+    position:sticky;
+    z-index: 3;
+}

@@ -11,7 +11,7 @@ import '../CSS/Navbar.css'
 
 function MyNavBar() {
   return (
-    <Navbar bg='dark' expand="lg">
+    <Navbar bg='dark' expand="lg" className='nav'>
       <Container fluid>
         <Navbar.Brand href="#" className=''>   
           <img

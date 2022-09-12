@@ -1,0 +1,26 @@
+.card
+{
+    display: flex;
+    flex-direction: row;
+    height:100% ;
+    width:40%;
+    /* position: relative; */
+    /* flex: 0 0 auto; */
+}
+
+.card img
+{
+    padding:5%;
+    width: 40%;
+    height:40%;
+}
+
+.inner h4
+{
+    font-weight: bold;
+}
+
+.inner span
+{
+    text-decoration: line-through;
+}

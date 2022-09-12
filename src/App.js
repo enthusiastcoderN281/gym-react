@@ -1,10 +1,11 @@
-import './App.css';
-import MyNavBar from './components/MyNavBar.js';
+import "./App.css";
+import MyNavBar from "./components/MyNavBar.js";
 // import Text from './components/Text.js';
-import MainCarousel from './components/MainCarousel.js';
+import MainCarousel from "./components/MainCarousel.js";
+import PopularDeals from "./components/PopularDeals";
+
 //importing bgImage component
 // import BgImage from './components/BgImage.js';
-
 
 //example of bootstrap
 // import { Button } from 'react-bootstrap';
@@ -16,12 +17,14 @@ import MainCarousel from './components/MainCarousel.js';
 //   );
 // }
 
-
 function App() {
   return (
     <div className="App">
       <MyNavBar />
-      <MainCarousel/>
+      <div className="carouselWrapper">
+        <MainCarousel />
+        <PopularDeals />
+      </div>
     </div>
   );
 }

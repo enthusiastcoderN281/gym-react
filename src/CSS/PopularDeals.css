@@ -1,0 +1,23 @@
+.CardsDisplay
+{
+    border: 1px solid red;
+    width: 95vw;
+    max-height:fit-content;
+    display:flex;
+    position:relative;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* padding: 2%;     */
+    /* overflow-inline: scroll; */
+    overflow:hidden;
+    /* scroll-behavior: auto; */
+
+}
+
+.scrolling-wrapper{ 
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
